@@ -1,0 +1,59 @@
+
+/* stop sign courtesy of https://codepen.io/DylanMacnab/pen/nemDq */
+
+#octagon {
+    width: 100px;
+    height: 40px;
+    background: red;
+    position: relative;
+  }
+  
+  #octagon:before {
+    content: "";
+    position: absolute;
+    top: -30px;
+    width: 40px;
+    height: 0;
+    border-bottom: 30px solid red;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+  }
+  
+  #octagon:after {
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    width: 40px;
+    height: 0px;
+    border-top: 30px solid red;
+    border-right: 30px solid transparent;
+    border-left: 30px solid transparent;
+  }
+  
+  #octagon p {
+    color: white;
+    font-family: helvetica;
+    font-size: 30px;
+    line-height: 42px;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 0 -1px 0 darkred;
+  }
+  
+  #post {
+    height: 200px;
+    width: 10px;
+    background: -webkit-linear-gradient(right,lightgrey, grey);
+    margin: 30px 45px;
+  }
+  
+  html {
+    height: 100%;
+    background: -webkit-linear-gradient(lightblue, snow 90%);
+  }
+  
+  #sign {
+    position: relative;
+    left: 200px;
+    top: 50px;
+  }
