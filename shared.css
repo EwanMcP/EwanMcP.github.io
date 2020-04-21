@@ -58,6 +58,14 @@ html {
     background: -webkit-linear-gradient(lightblue, snow 90%);
   }
 
+
+#bottomRight {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+
 /* CSS stopsign courtesy of Dylan Macnab (https://twitter.com/DylanMacnab) */
 
 #octagon {
@@ -111,3 +119,4 @@ html {
     float: left;
   }
   
+  /* end stopsign */
